@@ -1,0 +1,60 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>There are harder pieces...</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+            * {
+                font-family: "Roboto", sans-serif;
+            }
+
+            #piece {
+                width: 90vw;
+                margin-top: 5em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            @media only screen and (max-width: 720px) {
+                #piece {
+                    flex-direction: column;
+                }
+            }
+
+            #piece>* {
+                min-width: 0;
+                margin-right: 2em;
+            }
+
+            #title {
+                font-size: x-large;
+            }
+        </style>
+    </head>
+    <body>
+        Liszt's La Campanella is far from the hardest piece! 
+        Here's a piece which few would say is easier...
+
+        <div id="piece">
+        </div>
+
+        <script src=pieces.js></script>
+        <script>
+            (function main() {
+                const R = PIECES[Math.floor(Math.random() * PIECES.length)]
+                const E = document.getElementById("piece");
+                E.innerHTML = `
+                    <div>
+                        <span id="title">${R.piece}</span> ${R.index ? "#" + R.index + " from " + R.set : ""}<br>
+                        by ${R.composer}<br>
+                    </div>
+                    <iframe width="428" height="315" src="https://www.youtube.com/embed/${R.video}"></iframe>
+                `;
+            })();
+        </script>
+    </body>
+</html>
