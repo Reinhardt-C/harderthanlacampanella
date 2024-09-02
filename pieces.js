@@ -49,6 +49,20 @@ const PIECES = [
         composer: "F. Liszt",
         piece: "Reminiscences de Don Juan",
         video: "7KMVRVx-Z_M"
+    },
+    {
+        composer: "R. Schumann",
+        piece: "Fantasie in C Major",
+        video: "MgAeaSY9vQg"
+    },
+    {
+        composer: "R. Schumann",
+        piece: "Symphonic Etudes",
+        video: "G1FFWgzk4vI"
+    },
+    {
+        composer: "R. Schumann",
+        piece: "Toccata in C Major",
+        video: "XT68hCACDQc"
     }
-
 ]
