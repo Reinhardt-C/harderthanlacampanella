@@ -100,6 +100,22 @@ const PIECES = [
         index: 3,
         set: "Gaspard de la nuit",
         video: "qlFT1QGgu6Q"
+    },
+    {
+        composer: "J. Brahms",
+        piece: "Sonata No. 3",
+        video: "LQIRpJpbLAI"
+    },
+    {
+        composer: "J. Brahms",
+        piece: "Variations on Handel",
+        video: "lEiMC3afXyc"
+    },
+    {
+        composer: "J. Brahms",
+        piece: "Variations on Paganini",
+        video: "fYvwCccvZ2o"
     }
+
 
 ]
