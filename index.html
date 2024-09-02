@@ -43,7 +43,7 @@
     </head>
     <body>
         Liszt's La Campanella is far from the hardest piece! 
-        Here's a piece which few would say is easier...
+        Here's a piece that few would say is easier...
 
         <div id="piece"></div>
 
@@ -52,7 +52,8 @@
         <script src=pieces.js></script>
         <script>
             (function main() {
-                const R = PIECES[Math.floor(Math.random() * PIECES.length)]
+                const L = window.location.search.slice(1) == "last";
+                const R = PIECES[Math.floor(L ? PIECES.length - 1 : Math.random() * PIECES.length)]
                 const E = document.getElementById("piece");
                 E.innerHTML = `
                     <div>

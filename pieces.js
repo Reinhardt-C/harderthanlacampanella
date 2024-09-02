@@ -74,5 +74,32 @@ const PIECES = [
         composer: "F. Chopin",
         piece: "Sonata No. 3",
         video: "qbd9-hYXK9M"
+    },
+    {
+        composer: "M. Ravel",
+        piece: "Alborada del gracioso",
+        index: 4,
+        set: "Miroirs",
+        video: "OePeT12EJ14"
+    },
+    {
+        composer: "M. Ravel",
+        piece: "La Valse",
+        video: "ghY2ak8YoBM"
+    },
+    {
+        composer: "M. Ravel",
+        piece: "Ondine",
+        index: 1,
+        set: "Gaspard de la nuit",
+        video: "5_hw4Dp8mVs"
+    },
+    {
+        composer: "M. Ravel",
+        piece: "Scarbo",
+        index: 3,
+        set: "Gaspard de la nuit",
+        video: "qlFT1QGgu6Q"
     }
+
 ]
