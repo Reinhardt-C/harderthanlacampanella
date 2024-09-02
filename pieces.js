@@ -75,6 +75,4 @@ const PIECES = [
         piece: "Sonata No. 3",
         video: "qbd9-hYXK9M"
     }
-
-
 ]
