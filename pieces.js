@@ -19,6 +19,36 @@ const PIECES = [
         index: 12,
         set: "Transcendental Etudes",
         video: "5PqWXDo9TIw"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Galop in A Minor",
+        video: "smobyeL5p_4"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Rondeau fantastique / El contrabandista",
+        video: "BCwwyAegBPA"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Spanish Fantasy",
+        video: "79XmMnCS_S4"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Scherzo and March",
+        video: "mtFKy1pCJMg"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Sonata in B Minor",
+        video: "-O8WEF__Mu8"
+    },
+    {
+        composer: "F. Liszt",
+        piece: "Reminiscences de Don Juan",
+        video: "7KMVRVx-Z_M"
     }
 
 ]
