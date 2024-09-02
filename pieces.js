@@ -64,5 +64,17 @@ const PIECES = [
         composer: "R. Schumann",
         piece: "Toccata in C Major",
         video: "XT68hCACDQc"
+    },
+    {
+        composer: "F. Chopin",
+        piece: "Sonata No. 2",
+        video: "DhB59YCvxuw"
+    },
+    {
+        composer: "F. Chopin",
+        piece: "Sonata No. 3",
+        video: "qbd9-hYXK9M"
     }
+
+
 ]
