@@ -115,7 +115,37 @@ const PIECES = [
         composer: "J. Brahms",
         piece: "Variations on Paganini",
         video: "fYvwCccvZ2o"
+    },
+    {
+        composer: "M. Balakirev",
+        piece: "Islamey",
+        video: "m5862ZELC68"
+    },
+    {
+        composer: "S. Rachmaninoff",
+        piece: "Variations on Corelli",
+        video: "vZTSzvcW9q8"
+    },
+    {
+        composer: "S. Rachmaninoff",
+        piece: "Prelude",
+        index: 9,
+        set: "Op. 23",
+        video: "4qU2jcVt_LI"
+    },
+    {
+        composer: "S. Rachmaninoff",
+        piece: "Variations on Chopin",
+        video: "8IK0ls78D1I"
+    },
+    {
+        composer: "S. Rachmaninoff",
+        piece: "Sonata No. 1",
+        video: "EYQcgzj8Z3M"
+    },
+    {
+        composer: "S. Rachmaninoff",
+        piece: "Sonata No. 2",
+        video: "Gi5wyWicHTA"
     }
-
-
 ]
